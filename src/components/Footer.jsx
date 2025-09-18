@@ -1,12 +1,13 @@
 import React from "react";
+import { LogoURL } from "../utils/constant";
 
 const Footer = () => {
   return (
-    <footer className="bg-blue-100 text-gray-700 py-12 px-6">
+    <footer className="bg-blue-100 text-gray-700 py-12 px-6 mt-5">
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-10">
         <div>
           <div className="flex items-center space-x-2">
-            <div className="bg-blue-500 text-white p-2 rounded-full">⬩</div>
+            <img className="h-15" src={LogoURL} alt="Logo" />
             <h2 className="text-xl font-bold">E-Comm</h2>
           </div>
           <p className="text-sm mt-4 leading-6">
@@ -24,10 +25,18 @@ const Footer = () => {
           </p>
           <div className="flex space-x-4">
             <a href="#" className="text-blue-600 hover:text-blue-800">
-              <h1>F</h1>
+              <img
+                className="h-5"
+                src="https://static.vecteezy.com/system/resources/previews/021/495/985/large_2x/facebook-social-media-logo-icon-free-png.png"
+                alt="Logo"
+              />
             </a>
             <a href="#" className="text-blue-400 hover:text-blue-600">
-              <h1>T</h1>
+              <img
+                className="h-5"
+                src="https://cdn-icons-png.flaticon.com/512/2496/2496110.png"
+                alt="Logo"
+              />
             </a>
           </div>
         </div>
@@ -46,40 +55,40 @@ const Footer = () => {
         <div>
           <h4 className="font-semibold mb-3">Information</h4>
           <ul className="space-y-2 text-sm">
-            <li className="hover:underline">About Us</li>
-            <li className="hover:underline">Information</li>
-            <li className="hover:underline">Privacy Policy</li>
-            <li className="hover:underline">Terms & Conditions</li>
+            <li>About Us</li>
+            <li>Information</li>
+            <li>Privacy Policy</li>
+            <li>Terms & Conditions</li>
           </ul>
         </div>
 
         <div>
           <h4 className="font-semibold mb-3">Service</h4>
           <ul className="space-y-2 text-sm">
-            <li className="hover:underline">About Us</li>
-            <li className="hover:underline">Information</li>
-            <li className="hover:underline">Privacy Policy</li>
-            <li className="hover:underline">Terms & Conditions</li>
+            <li>About Us</li>
+            <li>Information</li>
+            <li>Privacy Policy</li>
+            <li>Terms & Conditions</li>
           </ul>
         </div>
 
         <div>
           <h4 className="font-semibold mb-3">My Account</h4>
           <ul className="space-y-2 text-sm">
-            <li className="hover:underline">About Us</li>
-            <li className="hover:underline">Information</li>
-            <li className="hover:underline">Privacy Policy</li>
-            <li className="hover:underline">Terms & Conditions</li>
+            <li>About Us</li>
+            <li>Information</li>
+            <li>Privacy Policy</li>
+            <li>Terms & Conditions</li>
           </ul>
         </div>
 
         <div>
           <h4 className="font-semibold mb-3">Our Offers</h4>
           <ul className="space-y-2 text-sm">
-            <li className="hover:underline">About Us</li>
-            <li className="hover:underline">Information</li>
-            <li className="hover:underline">Privacy Policy</li>
-            <li className="hover:underline">Terms & Conditions</li>
+            <li>About Us</li>
+            <li>Information</li>
+            <li>Privacy Policy</li>
+            <li>Terms & Conditions</li>
           </ul>
         </div>
       </div>
@@ -90,17 +99,17 @@ const Footer = () => {
           <img
             src="https://upload.wikimedia.org/wikipedia/commons/0/04/Mastercard-logo.png"
             alt="MasterCard"
-            className="h-6"
+            className="h-4"
           />
           <img
             src="https://upload.wikimedia.org/wikipedia/commons/b/b5/PayPal.svg"
             alt="PayPal"
-            className="h-6"
+            className="h-4"
           />
           <img
             src="https://upload.wikimedia.org/wikipedia/commons/4/41/Visa_Logo.png"
             alt="Visa"
-            className="h-6"
+            className="h-3"
           />
         </div>
       </div>
